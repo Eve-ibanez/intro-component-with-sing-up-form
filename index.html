@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  
+</head>
+<body>
+  <section class="section-form"> 
+    <h1 class="section-form_title">
+      Learn to code by watching others
+    </h1>
+    <p class="section-form_paragraph">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. 
+    </p>
+    <div class="section-form_div-free">
+      <b> Try it free 7 days </b>  then $20/mo. thereafter
+    </div>
+    <form class="section-form_div-form">
+      <div>
+        <input  type="text" placeholder="     First Name" class="fName"> 
+        <div class="div-error-fname">
+          <img src="./images/icon-error.svg" alt="error-alert" class="error-alert" >
+          <span class="alert"> First Name cannot be empty </span>
+        </div>
+      </div>
+      <div>
+        <input  type="text" placeholder="     Last Name" class="lName">
+        <div class="div-error-lname">
+          <img src="./images/icon-error.svg" alt="error-alert" class="error-alert">
+          <span class="alert"> Last Name cannot be empty </span>
+        </div>
+      </div>
+      <div>
+        <input  type="email" placeholder="    Email Address" class="email">
+        <div class="div-error-email">
+          <img src="./images/icon-error.svg" alt="error-alert" class="error-alert">
+          <span class="alert"> Looks like this is not an email </span>
+        </div>
+      </div>
+      <div>
+        <input  type="password" placeholder="    Password" class="password">
+        <div class="div-error-pass">
+          <img src="./images/icon-error.svg" alt="error-alert" class="error-alert">
+          <span class="alert"> Password cannot be empty </span>
+        </div>
+      </div>
+      <input class="section-form_div-form_button" type="submit" value="Claim your free trial">
+      <div>
+        <p class="section-form_div-form_paragraph">
+        By clicking the button, you are agreeing to our <b> Terms and Services </b>
+        </p>
+      </div>
+    </form>
+  </section>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="./main.js" ></script>
+</body>
+</html>
